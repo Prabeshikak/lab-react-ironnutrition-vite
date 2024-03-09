@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import FoodList from "./components/FoodList";
 
 function App() {

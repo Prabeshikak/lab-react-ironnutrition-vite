@@ -18,7 +18,7 @@ function FoodList() {
   };
 
   return (
-    <div className="App">
+    <div className="FoodList">
       <h1>LAB | React IronNutrition</h1>
       <AddFoodForm addFood={addNewFood} />
       {foods.map((food) => {

@@ -4,7 +4,7 @@ function FoodBox(props) {
   const { food, onDelete } = props;
 
   return (
-    <div>
+    <div className="FoodBox">
       <p>NAME: {food.name}</p>
       <img src={food.image} />
       <p>Calories: {food.calories}</p>
